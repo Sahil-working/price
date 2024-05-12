@@ -48,7 +48,7 @@ model.add(Dense(1))
 
 model.compile(optimizer= 'adam' , loss = 'mean_squared_error')
 
-#model.fit(x_train , y_train , batch_size = 1 , epochs = 2)
+model.fit(x_train , y_train)
 
 
 st.subheader("Stock data")
